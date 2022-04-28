@@ -12,7 +12,7 @@ $response['num_records'] = count($records);
 $responce['last_insert_record'] = -1;
 
 //open dB connection
-$dbconn = pg_connect("host=pg_container port=5432 dbname=postgres user=root password=root");
+$dbconn = pg_connect("host=10.58.2.4 port=31297 dbname=postgres user=postgres password=SyD10r");
 if(!$dbconn){$response['responce_type'] = 'fail';}
 
 
